@@ -27,7 +27,7 @@ def reformat_languages(languages)
     data.each do |language, type|
       type.each do |k, v|
         style_array << styles
-        new_hash[language] = {k => v, :style => [styles]} 
+        new_hash[language] = {k => v, :style => style_array} 
       end
     end
   end
