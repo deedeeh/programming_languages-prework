@@ -22,7 +22,7 @@ require 'pry'
 def reformat_languages(languages)
   # your code here
   new_hash = {}
-  styles_array = []
+  style_array = []
   languages.each do |styles, data|
     data.each do |language, type|
       type.each do |k, v|
